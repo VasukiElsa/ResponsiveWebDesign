@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+#header{
+  display:flex;
+justify-content: space-between;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+}
+
+#header-img{
+ width:370px;
+ position:fixed;
+  
+}
+
+#nav-bar{
+   height: 50px;
+   position:fixed;
+   font-size:20px;
+   margin-left:900px;
+   margin-top:0px;
+}
+
+#submit{
+ background-color:orange;
+ font-family: Tahoma;
+ font-size: 16px;
+ font-weight: 700;
+ padding:7px 20px 7px 20px;
+ margin-top:20px;
+ cursor: pointer;
+}
+
+#submit:hover{
+ background-color:darkorange;
+}
+
+#email{
+  padding:7px 20px 7px 20px;
+}
+
+a:hover{
+  color: #1b1b32;
+   cursor: pointer;
+   
+}
+a{
+ text-decoration:none;
+ color:black;
+}
+
+.nav-link{
+ padding:20px;
+}
+
+#form-section{
+ text-align:center;
+ font-size:20px;
+ margin-top:60px;
+}
+
+i{
+  color:orange;
+  margin-left:300px;
+}
+
+.description{
+ margin-top:70px;
+ font-size:20px;
+ margin-left:20px;
+ margin-right:90px;
+}
+
+#premium-materials, #FastShipping, #QualityAssurance{
+ display:flex; 
+ flex-direction:column;
+ 
+}
+
+#premium-heading, #FastShipping-heading, #QualityAssurance-heading{
+ margin-left:400px;
+ margin-top:-61px;
+}
+
+#premium-para, #FastShipping-para, #QualityAssurance-para, #video{
+ margin-left:400px;
+ margin-top:-15px;
+ margin-bottom:55px;
+ 
+}
+
+.containers{
+ width:90%;
+ margin:auto;
+ height:400px;
+ display:flex;
+ justify-content:space-evenly;
+}
+
+#container_one{
+ width:350px;
+ height:350px;
+ border: 1px solid #000;
+ 
+}
+
+#container_two{
+ width:350px;
+ height:350px;
+ border: 1px solid #000;
+
+}
+
+#container_three{
+ width:350px;
+ height:350px;
+ border: 1px solid #000;
+
+}
+
+#title-bar{
+ width:348px;
+ height:70px;
+ background-color:lightgrey;
+ position:absolute;
+ 
+}
+
+#title-content{
+ margin-left:90px;
+ margin-bottom:20px;
+ margin-top:25px;font-size:20px;
+}
+
+#price{
+ text-align:center;
+ color:black;
+ margin-top:40px;
+ 
+}
+
+#container_lists{
+list-style:none;
+text-align:center;
+font-size:20px;
+
+}
+
+li{
+margin-right:27px;
+margin-top:10px;
+}
+
+#select-btn{
+margin-left:120px; 
+padding:10px 40px 10px 40px;
+border-radius:6px;
+cursor:pointer;
+background-color:orange;
+}
+
+#select-btn:hover{
+background-color:darkorange;
+}
+
+footer{
+width:85%;
+height:100px;
+background-color:lightgrey;
+margin:auto;
+padding:3px;
+border-radius:5px;
+}
+
+#footer-list{
+display:flex;
+margin-left:73%;
+font-size:20px;
+font-weight:600;
+list-style:none;
+}
+
+#footer-para{
+ margin-left:77%;
+ font-size:15px;
+ font-weight:400;
+}
+
+@media screen and (max-width:600px) {
+  #nav-bar{
+      display:flex;
+  }
+}
